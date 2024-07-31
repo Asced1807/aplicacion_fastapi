@@ -1,0 +1,28 @@
+/* assets/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h4 {
+    color: #007bff;
+    text-align: center;
+}
+
+#mineral {
+    margin-bottom: 20px;
+}
+
+#graph {
+    height: 600px;
+}
+
+.container {
+    margin: 20px;
+}
+
+.graph-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

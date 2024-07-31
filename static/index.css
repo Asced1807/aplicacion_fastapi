@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('/static/imagenes/mineria-a-cielo-abierto.jpg'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    background-position: center center; /* Centra la imagen en la pantalla */
+    height: 100vh; /* Altura de la pantalla completa */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #666;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: transparent; /* Fondo transparente por defecto */
+    border: 2px solid rgba(255, 255, 255, 0.8); /* Borde azul por defecto */
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+}
+
+.btn:hover {
+    background-color: #007bff; /* Cambia el fondo a azul cuando se pasa el mouse sobre el botón */
+    color: #fff; /* Asegura que el texto siga siendo blanco cuando el fondo se vuelve azul */
+}
+
